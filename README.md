@@ -8,7 +8,7 @@ is from kaggle you can find it here : https://www.kaggle.com/koryakinp/fingers
 # project codes
 the project consists of three python files : 
 
-preprocessing_modelTraining.py : which takes the dataset and perform some functions on it to resize all images to be (128 x 128), and extract the pictures labels from the last two bytes of the pic name. A CNN is used for training fiving an accuracy of 99.8%.
+preprocessing_modelTraining.py : which takes the dataset and perform some functions on it to resize all images to be (128 x 128), and extract the pictures labels from the last two bytes of the pic name. A CNN is used for training fiving an accuracy of 100%.
 
 fingers_counter_model.py : two functions is used, the 1st one is to create the model and the 2nd one is to print the number of fingers.
 
