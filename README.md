@@ -1,7 +1,7 @@
 # fingers_counter
 A very simple and interesting project where the number of fingers in a hand is detected, detecting also whether it is a right or left hand.
 
-![](test/test1.png) 
+![](test/test1.PNG) 
 
 
 # Dataset 
@@ -20,7 +20,7 @@ test.py : takes any hand picture and input it to the model to predict the number
 # Model
 A CNN is used with conv2d and maxpoolying layers, here is a summary for the model.
 
-![](test/test1.png) 
+![](test/model_summary_fingers.PNG) 
 
 as shown a softmax activation function is used at the last dense layer to give a prediction to the number of hand's fingers.
 
