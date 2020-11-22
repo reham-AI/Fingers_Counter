@@ -1,6 +1,9 @@
 # fingers_counter
 A very simple and interesting project where the number of fingers in a hand is detected, detecting also whether it is a right or left hand.
 
+![](test/test1.png) 
+
+
 # Dataset 
 is from kaggle you can find it here : https://www.kaggle.com/koryakinp/fingers 
 18000 images is provided for training and 3600 images for testing.
@@ -16,6 +19,8 @@ test.py : takes any hand picture and input it to the model to predict the number
 
 # Model
 A CNN is used with conv2d and maxpoolying layers, here is a summary for the model.
+
+![](test/test1.png) 
 
 as shown a softmax activation function is used at the last dense layer to give a prediction to the number of hand's fingers.
 
